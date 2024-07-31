@@ -97,7 +97,9 @@ span{
 .portfolio-image-section{
     background-color: black;
     width: 395px;
-    border: 2px solid #FD6F00;
+    border: 4px solid transparent;
+    background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(to top, #FF8233, rgba(255, 255, 255, 0)) ;
     border-radius: 100%;
     padding-top: 30px;
     justify-content: center;
