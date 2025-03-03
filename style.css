@@ -450,3 +450,82 @@ footer{
 .copyright p{
     padding-top: 25px;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Hide the showcase section on mobile */
+    .showcase {
+      display: none;
+    }
+  
+    /* Adjust banner layout (text and image stacked vertically) */
+    .banner-desc-pic {
+      flex-direction: column;
+      align-items: center;
+      margin: 50px 0;
+    }
+  
+    /* Resize and center the portfolio image section */
+    .portfolio-image-section {
+      width: 250px;
+      height: 250px;
+      margin: 0 auto 20px;
+      padding-top: 20px;
+    }
+    .portfolio-image-section img {
+      width: 200px;
+      height: auto;
+      margin-top: -50px;
+    }
+    
+    /* Stack About Me and Experience vertically */
+    .about-me-expyr-sec {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    
+    /* Experience section adjustments */
+    .experience-desc {
+      flex-direction: column;
+      margin: 20px 0;
+      padding: 20px;
+      height: auto;
+    }
+    .exp-yr {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    /* Portfolio Section: stack category buttons */
+    .portofolio-sec {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    /* Contact Form adjustments for full width */
+    .contact-form {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .name-email {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+    }
+    .name-email #contact-na input,
+    .name-email #contact-em input,
+    .message input {
+      width: 100%;
+      padding: 8px;
+    }
+    
+    /* Footer adjustments */
+    footer {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  
